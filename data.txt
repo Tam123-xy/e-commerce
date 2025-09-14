@@ -1,0 +1,225 @@
+[PREFERENCES]
+AgeRange,Gender,Category,Weight
+18-24,MALE,ELECTRONICS,0.65
+18-24,MALE,FASHION,0.58
+18-24,MALE,BEAUTY,0.18
+18-24,MALE,HOME,0.25
+18-24,MALE,BOOKS,0.35
+18-24,MALE,SPORTS,0.55
+18-24,MALE,HEALTH,0.30
+18-24,MALE,TOYS,0.15
+18-24,MALE,AUTO,0.40
+18-24,MALE,FOOD,0.50
+18-24,FEMALE,ELECTRONICS,0.45
+18-24,FEMALE,FASHION,0.72
+18-24,FEMALE,BEAUTY,0.68
+18-24,FEMALE,HOME,0.40
+18-24,FEMALE,BOOKS,0.42
+18-24,FEMALE,SPORTS,0.38
+18-24,FEMALE,HEALTH,0.45
+18-24,FEMALE,TOYS,0.25
+18-24,FEMALE,AUTO,0.15
+18-24,FEMALE,FOOD,0.55
+25-34,MALE,ELECTRONICS,0.58
+25-34,MALE,FASHION,0.52
+25-34,MALE,BEAUTY,0.22
+25-34,MALE,HOME,0.45
+25-34,MALE,BOOKS,0.40
+25-34,MALE,SPORTS,0.52
+25-34,MALE,HEALTH,0.38
+25-34,MALE,TOYS,0.35
+25-34,MALE,AUTO,0.55
+25-34,MALE,FOOD,0.48
+25-34,FEMALE,ELECTRONICS,0.42
+25-34,FEMALE,FASHION,0.65
+25-34,FEMALE,BEAUTY,0.62
+25-34,FEMALE,HOME,0.58
+25-34,FEMALE,BOOKS,0.48
+25-34,FEMALE,SPORTS,0.35
+25-34,FEMALE,HEALTH,0.52
+25-34,FEMALE,TOYS,0.55
+25-34,FEMALE,AUTO,0.18
+25-34,FEMALE,FOOD,0.60
+35-44,MALE,ELECTRONICS,0.52
+35-44,MALE,FASHION,0.48
+35-44,MALE,BEAUTY,0.20
+35-44,MALE,HOME,0.62
+35-44,MALE,BOOKS,0.45
+35-44,MALE,SPORTS,0.48
+35-44,MALE,HEALTH,0.42
+35-44,MALE,TOYS,0.50
+35-44,MALE,AUTO,0.65
+35-44,MALE,FOOD,0.52
+35-44,FEMALE,ELECTRONICS,0.38
+35-44,FEMALE,FASHION,0.62
+35-44,FEMALE,BEAUTY,0.58
+35-44,FEMALE,HOME,0.70
+35-44,FEMALE,BOOKS,0.52
+35-44,FEMALE,SPORTS,0.32
+35-44,FEMALE,HEALTH,0.58
+35-44,FEMALE,TOYS,0.65
+35-44,FEMALE,AUTO,0.22
+35-44,FEMALE,FOOD,0.65
+45-54,MALE,ELECTRONICS,0.45
+45-54,MALE,FASHION,0.42
+45-54,MALE,BEAUTY,0.15
+45-54,MALE,HOME,0.68
+45-54,MALE,BOOKS,0.55
+45-54,MALE,SPORTS,0.42
+45-54,MALE,HEALTH,0.58
+45-54,MALE,TOYS,0.30
+45-54,MALE,AUTO,0.70
+45-54,MALE,FOOD,0.48
+45-54,FEMALE,ELECTRONICS,0.32
+45-54,FEMALE,FASHION,0.58
+45-54,FEMALE,BEAUTY,0.52
+45-54,FEMALE,HOME,0.75
+45-54,FEMALE,BOOKS,0.62
+45-54,FEMALE,SPORTS,0.28
+45-54,FEMALE,HEALTH,0.68
+45-54,FEMALE,TOYS,0.40
+45-54,FEMALE,AUTO,0.20
+45-54,FEMALE,FOOD,0.62
+55-64,MALE,ELECTRONICS,0.38
+55-64,MALE,FASHION,0.45
+55-64,MALE,BEAUTY,0.12
+55-64,MALE,HOME,0.72
+55-64,MALE,BOOKS,0.65
+55-64,MALE,SPORTS,0.35
+55-64,MALE,HEALTH,0.72
+55-64,MALE,TOYS,0.25
+55-64,MALE,AUTO,0.68
+55-64,MALE,FOOD,0.45
+55-64,FEMALE,ELECTRONICS,0.28
+55-64,FEMALE,FASHION,0.68
+55-64,FEMALE,BEAUTY,0.45
+55-64,FEMALE,HOME,0.78
+55-64,FEMALE,BOOKS,0.72
+55-64,FEMALE,SPORTS,0.22
+55-64,FEMALE,HEALTH,0.78
+55-64,FEMALE,TOYS,0.45
+55-64,FEMALE,AUTO,0.15
+55-64,FEMALE,FOOD,0.68
+65+,MALE,ELECTRONICS,0.25
+65+,MALE,FASHION,0.38
+65+,MALE,BEAUTY,0.08
+65+,MALE,HOME,0.68
+65+,MALE,BOOKS,0.75
+65+,MALE,SPORTS,0.28
+65+,MALE,HEALTH,0.82
+65+,MALE,TOYS,0.35
+65+,MALE,AUTO,0.58
+65+,MALE,FOOD,0.42
+65+,FEMALE,ELECTRONICS,0.22
+65+,FEMALE,FASHION,0.62
+65+,FEMALE,BEAUTY,0.35
+65+,FEMALE,HOME,0.78
+65+,FEMALE,BOOKS,0.78
+65+,FEMALE,SPORTS,0.18
+65+,FEMALE,HEALTH,0.85
+65+,FEMALE,TOYS,0.55
+65+,FEMALE,AUTO,0.12
+65+,FEMALE,FOOD,0.65
+
+[PRODUCTS]
+ID,Name,Category,Price,Rating,Tag1,Tag2
+1,iPhone 15,ELECTRONICS,999.99,4.8,smartphone,apple
+2,Samsung Galaxy S24,ELECTRONICS,899.99,4.7,android,flagship
+3,MacBook Air M2,ELECTRONICS,1299.99,4.9,laptop,productivity
+4,Sony WH-1000XM5,ELECTRONICS,399.99,4.8,headphones,noise-canceling
+5,iPad Pro 11,ELECTRONICS,799.99,4.8,tablet,creative
+6,Nintendo Switch,ELECTRONICS,299.99,4.6,gaming,portable
+7,Apple Watch Series 9,ELECTRONICS,399.99,4.7,smartwatch,fitness
+8,Dell XPS 13,ELECTRONICS,1199.99,4.6,ultrabook,business
+9,AirPods Pro 2,ELECTRONICS,249.99,4.7,wireless,earbuds
+10,Xiaomi 13 Pro,ELECTRONICS,699.99,4.5,android,camera
+11,Nike Air Max 270,FASHION,129.99,4.6,sneakers,comfort
+12,Levi's 501 Original,FASHION,69.99,4.5,jeans,classic
+13,Adidas Ultraboost 22,FASHION,189.99,4.7,running,performance
+14,Uniqlo Heat Tech,FASHION,29.99,4.4,thermal,winter
+15,Zara Blazer,FASHION,79.99,4.3,formal,office
+16,H&M Basic Tee,FASHION,9.99,4.2,casual,cotton
+17,Coach Leather Bag,FASHION,295.99,4.8,luxury,handbag
+18,Ray-Ban Aviator,FASHION,154.99,4.7,sunglasses,classic
+19,Converse Chuck Taylor,FASHION,55.99,4.5,canvas,retro
+20,Patagonia Down Jacket,FASHION,249.99,4.8,outdoor,warmth
+21,Estée Lauder Double Wear,BEAUTY,48.99,4.6,foundation,long-lasting
+22,MAC Ruby Woo Lipstick,BEAUTY,19.99,4.7,lipstick,classic
+23,The Ordinary Niacinamide,BEAUTY,6.99,4.5,serum,skincare
+24,Urban Decay Eyeshadow,BEAUTY,54.99,4.6,makeup,pigmented
+25,CeraVe Moisturizer,BEAUTY,16.99,4.8,moisturizer,gentle
+26,Fenty Beauty Gloss,BEAUTY,21.99,4.5,lip-gloss,shine
+27,La Mer Cream,BEAUTY,350.99,4.7,luxury,anti-aging
+28,Drunk Elephant Vitamin C,BEAUTY,38.99,4.6,serum,brightening
+29,Charlotte Tilbury Mascara,BEAUTY,29.99,4.7,mascara,volumizing
+30,Glossier Cloud Paint,BEAUTY,18.99,4.4,blush,natural
+31,IKEA Malm Dresser,HOME,149.99,4.4,furniture,storage
+32,Dyson V15 Vacuum,HOME,749.99,4.8,cleaning,cordless
+33,Instant Pot Duo,HOME,99.99,4.7,kitchen,pressure-cooker
+34,Philips Hue Lights,HOME,199.99,4.6,smart-home,lighting
+35,West Elm Sofa,HOME,1299.99,4.5,furniture,comfort
+36,KitchenAid Mixer,HOME,379.99,4.8,baking,powerful
+37,Casper Mattress,HOME,695.99,4.6,sleep,memory-foam
+38,Ninja Blender,HOME,129.99,4.5,kitchen,smoothies
+39,Pottery Barn Candles,HOME,24.99,4.7,decor,aromatherapy
+40,Roomba i7,HOME,599.99,4.6,robot,automated
+41,Atomic Habits Book,BOOKS,16.99,4.8,self-help,productivity
+42,Dune Novel,BOOKS,14.99,4.7,sci-fi,classic
+43,The Thursday Murder Club,BOOKS,13.99,4.6,mystery,bestseller
+44,Educated Memoir,BOOKS,15.99,4.8,biography,inspiring
+45,Where the Crawdads Sing,BOOKS,12.99,4.5,fiction,popular
+46,Sapiens Book,BOOKS,17.99,4.7,history,evolution
+47,The Silent Patient,BOOKS,14.99,4.6,thriller,psychological
+48,Becoming by Obama,BOOKS,19.99,4.8,memoir,political
+49,The Seven Husbands,BOOKS,16.99,4.5,romance,hollywood
+50,Project Hail Mary,BOOKS,15.99,4.7,sci-fi,adventure
+51,Peloton Bike+,SPORTS,2495.99,4.7,fitness,cycling
+52,Yeti Rambler Bottle,SPORTS,44.99,4.8,hydration,insulated
+53,Lululemon Align Pants,SPORTS,128.99,4.6,yoga,comfortable
+54,Nike Metcon 8,SPORTS,139.99,4.5,crossfit,training
+55,Patagonia Hiking Pack,SPORTS,179.99,4.7,outdoor,backpack
+56,TRX Suspension Trainer,SPORTS,195.99,4.6,home-gym,versatile
+57,Hydro Flask 32oz,SPORTS,44.99,4.7,water-bottle,durable
+58,Under Armour HeatGear,SPORTS,34.99,4.5,activewear,moisture-wicking
+59,Garmin Forerunner 245,SPORTS,299.99,4.6,running,GPS
+60,Theragun Mini,SPORTS,179.99,4.7,recovery,massage
+61,Centrum Multivitamin,HEALTH,12.99,4.5,supplement,daily
+62,Protein Powder Gold Standard,HEALTH,54.99,4.7,fitness,muscle
+63,Fish Oil Omega-3,HEALTH,19.99,4.6,supplement,heart-health
+64,Vitamin D3 Gummies,HEALTH,16.99,4.4,supplement,immunity
+65,Collagen Peptides,HEALTH,39.99,4.5,beauty,joints
+66,Probiotics 50 Billion,HEALTH,34.99,4.6,digestive,gut-health
+67,Turmeric Curcumin,HEALTH,21.99,4.5,anti-inflammatory,natural
+68,Magnesium Glycinate,HEALTH,18.99,4.6,sleep,relaxation
+69,B-Complex Vitamins,HEALTH,14.99,4.4,energy,metabolism
+70,Melatonin 3mg,HEALTH,8.99,4.5,sleep,natural
+71,LEGO Creator 3-in-1,TOYS,79.99,4.8,building,creative
+72,Barbie Dreamhouse,TOYS,199.99,4.6,doll,imaginative
+73,Hot Wheels Track Set,TOYS,39.99,4.5,cars,racing
+74,Fisher-Price Rock 'n Play,TOYS,89.99,4.4,baby,soothing
+75,Melissa & Doug Puzzles,TOYS,14.99,4.7,educational,wooden
+76,Nerf Elite Blaster,TOYS,24.99,4.5,action,outdoor
+77,Baby Einstein Toys,TOYS,19.99,4.6,developmental,learning
+78,Play-Doh Mega Pack,TOYS,29.99,4.4,creative,modeling
+79,PAW Patrol Figures,TOYS,34.99,4.5,characters,adventure
+80,VTech Learning Tablet,TOYS,49.99,4.6,educational,interactive
+81,WeatherTech Floor Mats,AUTO,159.99,4.8,protection,custom-fit
+82,Thule Roof Box,AUTO,599.99,4.7,storage,travel
+83,Chemical Guys Car Wash,AUTO,24.99,4.6,cleaning,shine
+84,Garmin DashCam,AUTO,199.99,4.5,safety,recording
+85,Michelin Wiper Blades,AUTO,34.99,4.7,visibility,replacement
+86,Battery Tender Charger,AUTO,49.99,4.6,maintenance,trickle
+87,Armor All Protectant,AUTO,12.99,4.4,interior,UV-protection
+88,CarPlay Adapter,AUTO,89.99,4.5,connectivity,wireless
+89,Emergency Road Kit,AUTO,79.99,4.7,safety,preparedness
+90,LED Headlight Bulbs,AUTO,69.99,4.6,upgrade,brightness
+91,Kind Almond Bars,FOOD,24.99,4.6,snack,healthy
+92,Starbucks Cold Brew,FOOD,4.99,4.5,coffee,convenience
+93,Blue Diamond Almonds,FOOD,8.99,4.7,nuts,protein
+94,LaCroix Sparkling Water,FOOD,5.99,4.4,beverage,refreshing
+95,Clif Energy Bars,FOOD,19.99,4.5,energy,natural
+96,Ben & Jerry's Ice Cream,FOOD,6.99,4.8,dessert,premium
+97,Haribo Gummy Bears,FOOD,3.99,4.5,candy,classic
+98,Kombucha GT's,FOOD,4.49,4.6,probiotic,organic
+99,Planters Mixed Nuts,FOOD,11.99,4.5,snack,variety
+100,Red Bull Energy Drink,FOOD,2.99,4.4,energy,boost
