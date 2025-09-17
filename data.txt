@@ -1,0 +1,7 @@
+1,iPhone 15,Electronics,999.99,4.8,smartphone,apple
+2,Samsung Galaxy,Electronics,899.99,4.7,smartphone,android
+3,MacBook Pro,Electronics,1999.99,4.9,laptop,apple
+4,Nike Air Max,Clothing,129.99,4.5,shoes,sports
+5,Adidas Ultraboost,Clothing,149.99,4.6,shoes,running
+6,Sony Headphones,Electronics,199.99,4.4,audio
+7,Python Book,Books,49.99,4.7,programming
