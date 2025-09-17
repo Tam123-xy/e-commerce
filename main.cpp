@@ -56,7 +56,7 @@ vector<Product> loadProducts(const string &filename) {
 
 void printTableHeader() {
     cout << left << setw(5)  << "ID"
-         << setw(20) << "Product Name"
+         << setw(40) << "Product Name"
          << setw(10) << "Ages"
          << setw(8)  << "Gender"
          << setw(12) << "Category"
@@ -83,7 +83,7 @@ void searchByKeyword(const vector<Product> &products, const string &keyword) {
         if (lowerName.find(lowerKey) != string::npos || lowerDesc.find(lowerKey) != string::npos) {
             found = true;
             cout << left << setw(5)  << p.ID
-                 << setw(20) << p.ProductName.substr(0,19)  // truncate long names
+                 << setw(40) << p.ProductName.substr(0,39)  // truncate long names
                  << setw(10) << p.SuitableAges
                  << setw(8)  << p.SuitableGender
                  << setw(12) << p.Category
