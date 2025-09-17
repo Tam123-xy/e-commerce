@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 #include <algorithm>
+#include <iomanip> // for setw, left, etc.
 using namespace std;
 
 struct Product {
@@ -53,8 +54,22 @@ vector<Product> loadProducts(const string &filename) {
     return products;
 }
 
+void printTableHeader() {
+    cout << left << setw(5)  << "ID"
+         << setw(20) << "Product Name"
+         << setw(10) << "Ages"
+         << setw(8)  << "Gender"
+         << setw(12) << "Category"
+         << setw(10) << "Price"
+         << setw(15) << "Seller"
+         << endl;
+    cout << string(100, '-') << endl;
+}
+
 void searchByKeyword(const vector<Product> &products, const string &keyword) {
     bool found = false;
+
+    printTableHeader();
     for (const auto &p : products) {
         string lowerName = p.ProductName;
         string lowerDesc = p.ProductDescription;
@@ -67,17 +82,17 @@ void searchByKeyword(const vector<Product> &products, const string &keyword) {
 
         if (lowerName.find(lowerKey) != string::npos || lowerDesc.find(lowerKey) != string::npos) {
             found = true;
-            cout << "\n--- Product Found ---\n";
-            cout << "Name: " << p.ProductName << "\n";
-            cout << "Suitable Ages: " << p.SuitableAges << "\n";
-            cout << "Suitable Gender: " << p.SuitableGender << "\n";
-            cout << "Category: " << p.Category << "\n";
-            cout << "Price: $" << p.Price << "\n";
-            cout << "Seller: " << p.SellerName << "\n";
-            cout << "Description: " << p.ProductDescription << "\n";
-            cout << "----------------------\n";
+            cout << left << setw(5)  << p.ID
+                 << setw(20) << p.ProductName.substr(0,19)  // truncate long names
+                 << setw(10) << p.SuitableAges
+                 << setw(8)  << p.SuitableGender
+                 << setw(12) << p.Category
+                 << setw(10) << fixed << setprecision(2) << p.Price
+                 << setw(15) << p.SellerName.substr(0,14)
+                 << endl;
         }
     }
+
     if (!found) {
         cout << "No products found matching keyword: " << keyword << "\n";
     }
