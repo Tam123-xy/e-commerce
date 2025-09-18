@@ -62,7 +62,7 @@ vector<Product> loadProducts(const string &filename) {
 }
 
 void printTableHeader() {
-    cout << left << setw(5)  << "ID"
+    cout << left 
          << setw(40) << "Product Name"
          << setw(10) << "Ages"
          << setw(8)  << "Gender"
@@ -89,7 +89,7 @@ void searchByKeyword(const vector<Product> &products, const string &keyword) {
 
         if (lowerName.find(lowerKey) != string::npos || lowerDesc.find(lowerKey) != string::npos) {
             found = true;
-            cout << left << setw(5)  << p.ID
+            cout << left 
                  << setw(40) << p.ProductName.substr(0,39)  // truncate long names
                  << setw(10) << p.SuitableAges
                  << setw(8)  << p.SuitableGender
@@ -170,7 +170,7 @@ void searchByCategory(const vector<Product> &products){
 
         if (lowerCategory == choose){
             found = true;
-            cout << left << setw(5)  << p.ID
+            cout << left 
                  << setw(40) << p.ProductName.substr(0,39)  // truncate long names
                  << setw(10) << p.SuitableAges
                  << setw(8)  << p.SuitableGender
@@ -257,7 +257,7 @@ void personalizedRecommendation(const vector<Product> &products) {
 
         if (genderMatch && ageMatch && categoryMatch && priceMatch) {
             found = true;
-            cout << left << setw(5)  << p.ID
+            cout << left 
                  << setw(40) << p.ProductName.substr(0,39)
                  << setw(10) << p.SuitableAges
                  << setw(8)  << p.SuitableGender
@@ -318,3 +318,4 @@ int main() {
 
     return 0;
 }
+
