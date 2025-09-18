@@ -63,7 +63,7 @@ vector<Product> loadProducts(const string &filename) {
 
 void printTableHeader() {
     cout << left
-         << setw(40) << "Product Name"
+         << setw(41) << "\nProduct Name"
          << setw(10) << "Ages"
          << setw(8)  << "Gender"
          << setw(12) << "Category"
@@ -121,7 +121,7 @@ void searchByCategory(const vector<Product> &products){
         return;
     }
 
-    cout << "Available Categories:\n";
+    cout << "\nAvailable Categories:\n";
     for (size_t i = 0; i < categories.size(); ++i){
         cout << " " << (i + 1) << ". " << categories[i] << "\n";
     }
@@ -206,7 +206,7 @@ void personalizedRecommendation(const vector<Product> &products) {
         cout << " " << (i + 1) << ". " << categories[i] << "\n";
     }
 
-    cout << "Select a category (name or number): ";
+    cout << "\nSelect a category (name or number): ";
     string input;
     getline(cin, input);
 
